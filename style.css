@@ -1,0 +1,70 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+
+    background-color:rgb(87, 160, 162);
+     justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#container{
+    height: 450px;
+    width: 320px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+   
+}
+
+#container img { 
+    height: 50%;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+#container h1{
+    font-size: 27px;
+    font-family: 'Gilroy';
+    margin: 10px ;
+    padding-top: 10px;
+    font-style: italic;
+}
+
+#container h4{
+    font-size: 25px;
+    color: crimson;
+    margin: 20px;
+    margin-top: 10%;
+   
+}
+ 
+#container button{
+    background-color: rgb(25, 93, 115);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px  20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+
+} 
+
+#container #remove{
+    background-color: #dadada;
+    color: rgb(43, 36, 36);
+    margin-right: 10px;
+
+}
+
+
